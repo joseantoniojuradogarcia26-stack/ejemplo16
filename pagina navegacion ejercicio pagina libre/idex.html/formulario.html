@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>GameZone - Formulario</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>📝 Tu opinión gaming</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="juegos.html">Videojuegos</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Cuéntanos tus preferencias</h2>
+
+        <form action="#" method="get">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre"
+                   name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo"
+                   name="correo" required>
+
+            <label for="genero">Género favorito:</label>
+            <select id="genero" name="genero">
+                <option>Aventuras</option>
+                <option>Deportes</option>
+                <option>Carreras</option>
+                <option>Acción</option>
+                <option>Estrategia</option>
+            </select>
+
+            <label for="juego">Tu videojuego favorito:</label>
+            <input type="text" id="juego" name="juego">
+
+            <label for="opinion">Tu opinión:</label>
+            <textarea id="opinion" name="opinion"
+                      rows="4"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Gracias por participar en GameZone</p>
+    </footer>
+</body>
+</html>
